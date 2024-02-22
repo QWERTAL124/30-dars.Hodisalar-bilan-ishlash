@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+button{
+    margin:5% 10% 5% 40%;
+    display: block;
+    width: 200px;
+    height: 40px;
+    align-items: center;
+    text-align: center;
+    background-color: aqua;
+    box-shadow: -2px 3px 5px 2px blue;
+    transition: .3s ease all;
+}
+button:hover{
+    outline: none;
+    border: none;
+    border-radius: 1%;
+    box-shadow: -4px 4px 5px 2px blue;
+}
+
+.overlay{
+    width: 100%;
+    padding: 10px;
+    background-color: burlywood;
+}
